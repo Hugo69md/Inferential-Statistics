@@ -1,5 +1,6 @@
 import pandas as pd #type: ignore
 from utils.filtering.dfmodif import dfmodif #type: ignore
+
 def analysis():
 
     dfnew = pd.read_csv('distributions.csv')
