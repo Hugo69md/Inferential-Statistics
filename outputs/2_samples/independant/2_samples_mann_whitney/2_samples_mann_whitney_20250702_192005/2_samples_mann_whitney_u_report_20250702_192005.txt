@@ -1,0 +1,30 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 230.75266658922192
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 58.18057606818911
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /============Independant equality of Medians Test Results Mann Whitney U rank sums============/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: 'Mann Whitney's 2 sample Independant test 
+        Test Statistic: 25.847517607028163
+        P-Value: 2.594589444982409e-147
+        Hypothesis testing for equality of medians: H1 accepted, the medians are not equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: 0.726061
+        Sample 2 Median: 0.498892
+        

@@ -1,0 +1,60 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 230.75266658922192
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 54.9223236958569
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /================== Shape of Distribution Test for Mann-Whitney U Assumption ==================/
+        Sample Names: Gamma vs Beta
+        Alpha Level: 0.05
+
+        /============================ Skewness ============================/
+        Skewness Sample 1 (Gamma): 1.968735
+        Skewness Sample 2 (Beta): -0.011237
+        Skewness Test Statistic (Levene): nan
+        Skewness P-Value: nan
+        ❌ Different
+
+        /============================ Kurtosis ============================/
+        Kurtosis Sample 1 (Gamma): 5.621077
+        Kurtosis Sample 2 (Beta): -1.189620
+        Kurtosis Test Statistic (Levene): nan
+        Kurtosis P-Value: nan
+        ❌ Different
+
+        /============================ Assumption Verdict ============================/
+        Shape Similarity Decision: H1 accepted, samples have different shapes (skewness and/or kurtosis)
+
+        /============================ Warning ============================/
+        !!!!!! WARNING: Distributions differ in shape — Mann-Whitney assumptions may not hold.
+     
+
+ 
+        /============Independant equality of Medians Test Results Mann Whitney U rank sums============/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: 'Mann Whitney's 2 sample Independant test
+        Test Statistic: 25.29739056311145
+        P-Value: 3.4125653576665486e-141
+        Hypothesis testing for equality of medians: H1 accepted, the medians are not equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: 0.726061
+        Sample 2 Median: 0.506366
+
+        /============================Warnings============================/
+        //
+        !!!!!! the sample distribution are not alike, the results might not reflect reality
+        

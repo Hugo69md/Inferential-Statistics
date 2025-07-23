@@ -1,0 +1,84 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.21345762321743678
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.5428223574508593
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /==================Distribution Fitting Results==================/
+        Sample 1 Size: 5100
+        Sample 2 Size: 5100
+        Alpha: 0.05
+        Timestamp: 20250704_195009
+
+        /==================Best Common Distribution==================/
+        Best Common Distribution: nct
+        Combined Score (Harmonic Mean of KS p-values): 0.964410
+
+        /==================Sample 1 Distribution Analysis==================/
+        Distribution: nct
+        KS Test Statistic: 0.006052
+        KS Test P-Value: 0.991619
+        KS Test Result: PASSED
+
+        Anderson-Darling Test: Not Available
+        
+        
+        
+
+        /==================Sample 2 Distribution Analysis==================/
+        Distribution: nct
+        KS Test Statistic: 0.007434
+        KS Test P-Value: 0.938654
+        KS Test Result: PASSED
+
+        Anderson-Darling Test: Not Available
+        
+        
+        
+
+        /============================Medians Info============================/
+        Sample 1 Median: -0.021891
+        Sample 2 Median: 1.980247
+        Median Difference: 2.002137
+
+        /============================Distribution Fit Quality============================/
+        Common Distribution Found: Yes
+        Both Samples Pass KS Test: True
+        Reliability Assessment: HIGH
+
+        /============================Warnings============================/
+        
+        
+        
+         
+
+ 
+        /============Independant equality of Medians Test Results Mann Whitney U rank sums============/
+        Sample Size: 5100
+        Alpha: 0.05
+        Common Distribution for the samples: nct
+        Method Used: 'Mann Whitney's 2 sample Independant test
+        Test Statistic: -64.96111867776173
+        P-Value: 0.0
+        Hypothesis testing for equality of medians: H1 accepted, the medians are not equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: -0.021891
+        Sample 2 Median: 1.980247
+
+        /============================Warnings============================/
+        !!!!!! the distribution of at least one sample is NORMAL, the results might not reflect reality
+        
+        

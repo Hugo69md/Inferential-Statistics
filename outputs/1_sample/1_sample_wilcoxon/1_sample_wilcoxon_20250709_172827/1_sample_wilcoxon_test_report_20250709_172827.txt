@@ -1,0 +1,46 @@
+
+        /================== Normality Test Results ==================/
+        Sample Size: 5100
+        Alpha: 0.025
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /================== Sample analysis ==================/
+        Test Statistic first sample : 92.64462332454241
+        Critical Value accepted: 0.917
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /====================== Symmetry Test Results Using Skewness ======================/
+        Sample Name: ChiSquare
+        Sample Size (non-zero diffs): 5100
+        Alpha Level: 0.025
+        Method Used: 'Skewness Test' (scipy.stats.skewtest)
+        Test Statistic: 28.692858
+        P-Value: 0.000000
+        Symmetry Decision: H1 accepted, data is likely asymmetric
+    
+        /============================ Difference Distribution Info ============================/
+        Mean of Differences: -3.016129
+        Median of Differences: -3.679468
+        Min / Max: -7.914185 / 14.940128
+
+        /=================================== Warnings ===================================/
+        !!!!!! WARNING: Data is significantly skewed — Wilcoxon test assumptions may not hold.
+         
+
+ 
+        /================== 1 sample Wilcoxon Test Results ==================/
+        Sample Size: 5100
+        Alpha: 0.025
+        Method Used: 'Wilcoxon's 1 sample test
+        Test Statistic: 1285198.0
+        P-Value: 0.0
+        Expected Median: 8.0
+        Hypothesis testing: H1 accepted, the means are not equal
+
+        /============================ Warnings ============================/
+        //
+        !!!!!! the sample is not symmetric, the results might not reflect reality
+
+        

@@ -1,0 +1,84 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.21345762321743678
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.3401679978105676
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /==================Distribution Fitting Results==================/
+        Sample 1 Size: 5100
+Sample 2 Size: 5100
+Alpha: 0.05
+Timestamp: 20250704_194301
+
+/==================Best Common Distribution==================/
+Best Common Distribution: skewnorm
+Combined Score (Harmonic Mean of KS p-values): 0.917816
+
+/==================Sample 1 Distribution Analysis==================/
+Distribution: skewnorm
+KS Test Statistic: 0.006017
+KS Test P-Value: 0.992190
+KS Test Result: PASSED
+
+Anderson-Darling Test: Not Available
+
+
+
+
+/==================Sample 2 Distribution Analysis==================/
+Distribution: skewnorm
+KS Test Statistic: 0.008478
+KS Test P-Value: 0.853815
+KS Test Result: PASSED
+
+Anderson-Darling Test: Not Available
+
+
+
+
+/============================Medians Info============================/
+Sample 1 Median: -0.021891
+Sample 2 Median: -0.024132
+Median Difference: -0.002241
+
+/============================Distribution Fit Quality============================/
+Common Distribution Found: Yes
+Both Samples Pass KS Test: True
+Reliability Assessment: HIGH
+
+/============================Warnings============================/
+
+
+
+         
+
+ 
+        /============Independant equality of Medians Test Results Mann Whitney U rank sums============/
+        Sample Size: 5100
+        Alpha: 0.05
+        Common Distribution for the samples: skewnorm
+        Method Used: 'Mann Whitney's 2 sample Independant test
+        Test Statistic: 0.039281338641078675
+        P-Value: 0.9686660847393702
+        Hypothesis testing for equality of medians: H0 accepted, the medians are equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: -0.021891
+        Sample 2 Median: -0.024132
+
+        /============================Warnings============================/
+        !!!!!! the distribution of at least one sample is NORMAL, the results might not reflect reality
+        
+        

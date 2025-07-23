@@ -1,0 +1,31 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.04
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.21345762321743678
+        Critical Value accepted: 0.8384
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.3401679978105676
+        Critical Value accepted: 0.8384
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /==================Dependant equality of Means Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.04
+        Method Used: 'Student's 2 sample paired T test 
+        Test Statistic: 0.054376641607414115
+        P-Value: 0.9566372188934363
+        Hypothesis testing for equality of means: H0 accepted, the means are equal
+
+        /============================Means infos============================/
+        Sample 1 Mean: -0.015967
+        Sample 2 Mean: -0.017030
+        Mean Ratio (larger/smaller): 0.9376
+        

@@ -1,0 +1,48 @@
+
+        /================== Normality Test Results ==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /================== First sample analysis ==================/
+        Test Statistic first sample : 0.15970230747825553
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /================== Second sample analysis ==================/
+        Test Statistic first sample : 230.75266658922192
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /================== Equality of Variances Test Results ==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Levene's test
+        Test Statistic: 29.765624857959537
+        P-Value: 4.989623388070186e-08
+        Hypothesis testing for equality of variances: H1 accepted, the variances are not equal
+
+        /============================ Variance infos ============================/
+        Sample 1 Variance: 0.972119
+        Sample 2 Variance: 1.042243
+        Variance Ratio (larger/smaller): 1.0721
+     
+
+ 
+        /================== Independant Equality of Means Test Results ==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Welch's T test
+        Test Statistic: -52.08349559797532
+        P-Value: 0.0
+        Hypothesis testing for equality of means: H1 accepted, the means are not equal
+
+        /============================ Means infos ============================/
+        Sample 1 Mean: -0.002602
+        Sample 2 Mean: 1.032502
+
+        /============================ Warnings ============================/
+        !!!!!! the distribution of at least one sample is NOT normal, use a non parametric test
+        

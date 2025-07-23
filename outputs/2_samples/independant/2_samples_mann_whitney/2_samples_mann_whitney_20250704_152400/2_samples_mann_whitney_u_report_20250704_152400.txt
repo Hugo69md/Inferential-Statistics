@@ -1,0 +1,63 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.3401679978105676
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.5428223574508593
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+/==================Distribution Fitting Results==================/
+Sample 1 Size: 5100
+Sample 2 Size: 5100
+Alpha: 0.05
+Timestamp: 20250704_152414
+
+/==================Best Common Distribution==================/
+Best Common Distribution: None found
+Combined Score: N/A
+
+/============================Analysis Result============================/
+No common distribution found between the two samples!
+This suggests the samples may not follow the same distribution.
+
+Valid distributions for Sample 1: []
+Valid distributions for Sample 2: []
+
+/============================Recommendations============================/
+Consider:
+- Data transformation
+- Alternative non-parametric tests
+- Different distribution families
+
+/============================Warnings============================/
+WARNING: No common distribution found - samples may be from different populations
+         
+
+ 
+        /============Independant equality of Medians Test Results Mann Whitney U rank sums============/
+        Sample Size: 5100
+        Alpha: 0.05
+        Common Distribution for the samples: None
+        Method Used: 'Mann Whitney's 2 sample Independant test
+        Test Statistic: -64.98938429431855
+        P-Value: 0.0
+        Hypothesis testing for equality of medians: H1 accepted, the medians are not equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: -0.024132
+        Sample 2 Median: 1.980247
+
+        /============================Warnings============================/
+        !!!!!! the distribution of at least one sample is NORMAL, the results might not reflect reality
+        !!!!!! the distribution of at least one sample does not follow the found distribution, the results might not reflect reality
+        

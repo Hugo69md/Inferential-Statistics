@@ -1,0 +1,30 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.15970230747825553
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 230.75266658922192
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /==================Dependant equality of Medians Test Results Wilcoxon signed rank==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: 'Wilcoxon's 2 sample paired test !!!!!! the distribution of at least one sample is NORMAL, the results might not reflect reality
+        Test Statistic: 1866756.0
+        P-Value: 0.0
+        Hypothesis testing for equality of medians: H1 accepted, the medians are not equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: -0.002033
+        Sample 2 Median: 0.726061
+        

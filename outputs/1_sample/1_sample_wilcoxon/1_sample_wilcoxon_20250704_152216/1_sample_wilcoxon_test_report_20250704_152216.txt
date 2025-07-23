@@ -1,0 +1,23 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 91
+        Alpha: 0.05
+        Method Used: Shapiro-Wilk (Sample size <= 5000)
+
+        /==================Sample analysis==================/
+        Test Statistic sample : 0.9438588549824402
+        P-Value: 0.0006600841720671297
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /==================1 sample Wilcoxon Test Results==================/
+        Sample Size: 91
+        Alpha: 0.05
+        Method Used: 'Wilcoxon's 1 sample test 
+        Test Statistic: 0.0
+        P-Value: 1.1920864122849158e-16
+        Expected Median: 1.0
+        Hypothesis testing: H1 accepted, the means are not equal
+
+        

@@ -1,0 +1,45 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 91
+        Alpha: 0.05
+        Method Used: Shapiro-Wilk (Sample size <= 5000)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.9784386609382795
+        P-Value: 0.13574379655638724
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.8565583294936605
+        P-Value: 6.397857306860302e-08
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /==================Equality of Variances Test Results==================/
+        Sample Size: 91
+        Alpha: 0.05
+        Method Used: Levene's test
+        Test Statistic: 0.9933160567943715
+        P-Value: 0.3202711654627659
+        Hypothesis testing for equality of variances: H0 accepted, the variances are equal
+
+        /============================Variance infos============================/
+        Sample 1 Variance: 0.959133
+        Sample 2 Variance: 0.799286
+        Variance Ratio (larger/smaller): 1.2000
+     
+
+ 
+        /==================Independant Equality of Means Test Results==================/
+        Sample Size: 91
+        Alpha: 0.05
+        Method Used: Student's T test, 2 samples independant!!!!!! the distribution of at least one sample is NOT normal, use a non parametric test
+        Test Statistic: -6.211455423420187
+        P-Value: 3.540053074679412e-09
+        Hypothesis testing for equality of means: H1 accepted, the means are not equal
+
+        /============================Means infos============================/
+        Sample 1 Mean: 0.096207
+        Sample 2 Mean: 0.959650
+        

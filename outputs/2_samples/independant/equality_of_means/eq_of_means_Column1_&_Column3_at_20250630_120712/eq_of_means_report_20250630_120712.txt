@@ -1,0 +1,41 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.21345762321743678
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.5428223574508593
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /==================Equality of Variances Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Bartlett's test
+        Test Statistic: 843.7106615588771
+        P-Value: 1.6938999178512044e-185
+        Hypothesis testing for equality of variances: H1 accepted, the variances are not equal
+
+        /============================Variance infos============================/
+        Sample 1 Variance: 0.974842
+        Sample 2 Variance: 2.224149
+        Variance Ratio (larger/smaller): 2.2815
+     
+
+ 
+        /==================Equality of Means Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Welch's T test
+        Test Statistic: -80.61207158403967
+        P-Value: 0.0
+        Hypothesis testing for equality of means: H1 accepted, the means are not equal
+        

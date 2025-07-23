@@ -1,0 +1,84 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 91
+        Alpha: 0.05
+        Method Used: Shapiro-Wilk (Sample size <= 5000)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.9473281707507692
+        P-Value: 0.001067481036988407
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.9438588549824402
+        P-Value: 0.0006600841720671297
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /==================Distribution Fitting Results==================/
+        Sample 1 Size: 91
+        Sample 2 Size: 91
+        Alpha: 0.05
+        Timestamp: 20250704_195539
+
+        /==================Best Common Distribution==================/
+        Best Common Distribution: uniform
+        Combined Score (Harmonic Mean of KS p-values): 0.607358
+
+        /==================Sample 1 Distribution Analysis==================/
+        Distribution: uniform
+        KS Test Statistic: 0.085341
+        KS Test P-Value: 0.494690
+        KS Test Result: PASSED
+
+        Anderson-Darling Test: Not Available
+        
+        
+        
+
+        /==================Sample 2 Distribution Analysis==================/
+        Distribution: uniform
+        KS Test Statistic: 0.066786
+        KS Test P-Value: 0.786483
+        KS Test Result: PASSED
+
+        Anderson-Darling Test: Not Available
+        
+        
+        
+
+        /============================Medians Info============================/
+        Sample 1 Median: 0.450059
+        Sample 2 Median: 0.467253
+        Median Difference: 0.017195
+
+        /============================Distribution Fit Quality============================/
+        Common Distribution Found: Yes
+        Both Samples Pass KS Test: True
+        Reliability Assessment: HIGH
+
+        /============================Warnings============================/
+        
+        
+        
+         
+
+ 
+        /============Independant equality of Medians Test Results Mann Whitney U rank sums============/
+        Sample Size: 91
+        Alpha: 0.05
+        Common Distribution for the samples: uniform
+        Method Used: 'Mann Whitney's 2 sample Independant test
+        Test Statistic: -0.5979744392470416
+        P-Value: 0.5498569885753014
+        Hypothesis testing for equality of medians: H0 accepted, the medians are equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: 0.450059
+        Sample 2 Median: 0.467253
+
+        /============================Warnings============================/
+        
+        
+        

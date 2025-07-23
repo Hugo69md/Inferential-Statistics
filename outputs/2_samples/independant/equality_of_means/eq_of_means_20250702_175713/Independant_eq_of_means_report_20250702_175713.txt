@@ -1,0 +1,45 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 97
+        Alpha: 0.05
+        Method Used: Shapiro-Wilk (Sample size <= 5000)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.9860581869471305
+        P-Value: 0.399210473206087
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.8536490912365435
+        P-Value: 2.3496062587369694e-08
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /==================Equality of Variances Test Results==================/
+        Sample Size: 97
+        Alpha: 0.05
+        Method Used: Bartlett's test
+        Test Statistic: 102.69135203604745
+        P-Value: 3.916503913488278e-24
+        Hypothesis testing for equality of variances: H1 accepted, the variances are not equal
+
+        /============================Variance infos============================/
+        Sample 1 Variance: 0.827411
+        Sample 2 Variance: 7.959044
+        Variance Ratio (larger/smaller): 9.6192
+     
+
+ 
+        /==================Independant Equality of Means Test Results==================/
+        Sample Size: 97
+        Alpha: 0.05
+        Method Used: Welch's T test
+        Test Statistic: -15.065632584503275
+        P-Value: 4.716213791043331e-29
+        Hypothesis testing for equality of means: H1 accepted, the means are not equal
+
+        /============================Means infos============================/
+        Sample 1 Mean: 0.049371
+        Sample 2 Mean: 4.583651
+        

@@ -1,0 +1,84 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 103
+        Alpha: 0.05
+        Method Used: Shapiro-Wilk (Sample size <= 5000)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.9429885978420909
+        P-Value: 0.00023539565526519275
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.9158876575143702
+        P-Value: 6.4742886533620696e-06
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /==================Distribution Fitting Results==================/
+        Sample 1 Size: 103
+        Sample 2 Size: 103
+        Alpha: 0.05
+        Timestamp: 20250705_171601
+
+        /==================Best Common Distribution==================/
+        Best Common Distribution: burr
+        Combined Score (Harmonic Mean of KS p-values): 0.722902
+
+        /==================Sample 1 Distribution Analysis==================/
+        Distribution: burr
+        KS Test Statistic: 0.074889
+        KS Test P-Value: 0.583944
+        KS Test Result: PASSED
+
+        Anderson-Darling Test: Not Available
+        
+        
+        
+
+        /==================Sample 2 Distribution Analysis==================/
+        Distribution: burr
+        KS Test Statistic: 0.049867
+        KS Test P-Value: 0.948648
+        KS Test Result: PASSED
+
+        Anderson-Darling Test: Not Available
+        
+        
+        
+
+        /============================Medians Info============================/
+        Sample 1 Median: 0.519151
+        Sample 2 Median: 4.237408
+        Median Difference: 3.718256
+
+        /============================Distribution Fit Quality============================/
+        Common Distribution Found: Yes
+        Both Samples Pass KS Test: True
+        Reliability Assessment: HIGH
+
+        /============================Warnings============================/
+        
+        
+        
+         
+
+ 
+        /==================Dependant equality of Medians Test Results Wilcoxon signed rank==================/
+        Sample Size: 103
+        Alpha: 0.05
+        Common Distribution for the samples: burr
+        Method Used: 'Wilcoxon's 2 sample paired test 
+        Test Statistic: 1.0
+        P-Value: 1.2841095340505155e-18
+        Hypothesis testing for equality of medians: H1 accepted, the medians are not equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: 0.519151
+        Sample 2 Median: 4.237408
+
+        /============================Warnings============================/
+        
+        
+        

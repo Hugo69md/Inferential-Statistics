@@ -1,0 +1,28 @@
+
+        /================== Normality Test Results ==================/
+        Sample Size: 108
+        Alpha: 0.05
+        Method Used: Shapiro-Wilk (Sample size <= 5000)
+
+        /================== Sample analysis ==================/
+        Test Statistic sample : 0.9868756324166571
+        P-Value: 0.3735961737912594
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /================== 1 sample t-Test Results ==================/
+        Sample Size: 108
+        Alpha: 0.05
+        Method Used: 'Student's 1 sample T test
+        Test Statistic: -2.3248317944620585
+        P-Value: 0.021968399629880706
+        Expected Mean: 0.24
+        Computed Mean: 0.00497150921511572
+        Hypothesis testing: H1 accepted, the expected mean does not correlate to the sample's mean
+
+        /============================ Warnings ============================/
+        //
+        
+
+        

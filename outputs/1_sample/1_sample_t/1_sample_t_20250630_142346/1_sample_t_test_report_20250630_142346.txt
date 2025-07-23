@@ -1,0 +1,23 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: D'Agostino's K-squared (Sample size < 5000 && alpha >= 0,05)
+
+        /==================Sample analysis==================/
+        Test Statistic sample : 17718.16375085269
+        P-Value: 0.0
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /==================1 sample t-Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: 'Student's 1 sample T test !!!!!! the distribution is NOT normal, the results might not reflect reality
+        Test Statistic: 71.85674273112711
+        P-Value: 0.0
+        Expected Mean: 0.0
+        Hypothesis testing: H1 accepted, the means are not equal
+
+        

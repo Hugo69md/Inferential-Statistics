@@ -1,0 +1,45 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 100000
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================Sample analysis==================/
+        Test Statistic first sample : 1601.2925874157518
+        Critical Value accepted: 0.787
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /====================== Symmetry Test Results Using Skewness ======================/
+        Sample Name: price
+        Sample Size (non-zero diffs): 100000
+        Alpha Level: 0.05
+        Method Used: 'Skewness Test' (scipy.stats.skewtest)
+        Test Statistic: 23.235636
+        P-Value: 0.000000
+        Symmetry Decision: H0 accepted, data is likely asymmetric
+    
+        /============================ Difference Distribution Info ============================/
+        Mean of Differences: 10.040667
+        Median of Differences: -49.560000
+        Min / Max: -1432.700000 / 1267.810000
+
+        /=================================== Warnings ===================================/
+        !!!!!! WARNING: Data is significantly skewed — Wilcoxon test assumptions may not hold.
+         
+
+ 
+        /==================1 sample Wilcoxon Test Results==================/
+        Sample Size: 100000
+        Alpha: 0.05
+        Method Used: 'Wilcoxon's 1 sample test 
+        Test Statistic: 2444532920.0
+        P-Value: 1.2107743234561415e-09
+        Expected Median: 106555.0
+        Hypothesis testing: H1 accepted, the means are not equal
+
+        /============================Warnings============================/
+        !!!!!! the sample is not symmetric, the results might not reflect reality
+
+        

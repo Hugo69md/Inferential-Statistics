@@ -1,0 +1,60 @@
+
+        /================== Normality Test Results ==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /================== First sample analysis ==================/
+        Test Statistic first sample : 0.5428223574508593
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /================== Second sample analysis ==================/
+        Test Statistic first sample : 0.21345762321743678
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /================== Distribution Shape Check for Mann-Whitney U ==================/
+        Sample Names: Column3 vs Column1
+        Sample Sizes: 5100
+        Alpha Level (informal): 0.05
+        Comparison Tolerance: 0.350 (Depends on sample size)
+        
+        /============================ Skewness ============================/
+        Skewness Sample 1 (Column3): 0.059051
+        Skewness Sample 2 (Column1): 0.020207
+        Absolute Difference: 0.038844
+        Skewness similarity Decision: H0 accepted: Distributions have similar skewness.
+
+        /============================ Kurtosis ============================/
+        Kurtosis Sample 1 (Column3): 0.038612
+        Kurtosis Sample 2 (Column1): -0.065742
+        Absolute Difference: 0.104354
+        Kurtosis similarity Decision: H0 accepted: Distributions have similar kurtosis.
+
+        /============================ Decision ============================/
+        Shape Similarity Decision: H0 accepted: Distributions have similar shape (skewness and kurtosis).
+
+        /============================ Warning ============================/
+        //
+     
+
+ 
+        /============ Independant equality of Medians Test Results Mann Whitney U rank sums ============/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: 'Mann Whitney's 2 sample Independant test
+        Test Statistic: 64.96111867776173
+        P-Value: 0.0
+        Hypothesis testing for equality of medians: H1 accepted, the medians are not equal
+
+        /============================ Medians infos ============================/
+        Sample 1 Median: 1.980247
+        Sample 2 Median: -0.021891
+
+        /============================ Warnings ============================/
+        !!!!!! the distribution of at least one sample is NORMAL, the results might not reflect reality
+        //
+        

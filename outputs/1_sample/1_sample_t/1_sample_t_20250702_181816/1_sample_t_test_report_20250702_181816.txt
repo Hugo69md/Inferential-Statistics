@@ -1,0 +1,23 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================Sample analysis==================/
+        Test Statistic first sample : 0.15970230747825553
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /==================1 sample t-Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: 'Student's 1 sample T test 
+        Test Statistic: -145.0507030238914
+        P-Value: 0.0
+        Expected Mean: 2.0
+        Hypothesis testing: H1 accepted, the means are not equal
+
+        

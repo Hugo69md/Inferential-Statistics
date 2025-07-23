@@ -1,0 +1,23 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================Sample analysis==================/
+        Test Statistic first sample : 0.15970230747825553
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /==================1 sample Wilcoxon Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: 'Wilcoxon's 1 sample test !!!!!! the distribution is normal, Use 1 sample t-test for more accurate results
+        Test Statistic: 6495466.0
+        P-Value: 0.9370191419311469
+        Expected Median: 0.0
+        Hypothesis testing: H0 accepted, the means are equal
+
+        

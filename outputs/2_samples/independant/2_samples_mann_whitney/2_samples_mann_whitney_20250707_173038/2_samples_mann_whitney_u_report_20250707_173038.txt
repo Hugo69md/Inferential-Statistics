@@ -1,0 +1,60 @@
+
+        /==================Normality Test Results==================/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: Anderson-Darling (samplesize >= 5000 && alpha <= 0,05)
+
+        /==================First sample analysis==================/
+        Test Statistic first sample : 0.21345762321743678
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+
+        /==================Second sample analysis==================/
+        Test Statistic first sample : 0.3401679978105676
+        Critical Value accepted: 0.786
+        Hypothesis testing for normality test results: H0 accepted, normality test validated
+         
+
+ 
+        /================== Shape of Distribution Test for Mann-Whitney U Assumption ==================/
+        Sample Names: Column1 vs Column2
+        Alpha Level: 0.05
+
+        /============================ Skewness ============================/
+        Skewness Sample 1 (Column1): 0.020207
+        Skewness Sample 2 (Column2): 0.021108
+        Skewness Test Statistic (Levene): 0.225527
+        Skewness P-Value: 0.634870
+        ✅ Similar
+
+        /============================ Kurtosis ============================/
+        Kurtosis Sample 1 (Column1): -0.065742
+        Kurtosis Sample 2 (Column2): 0.000594
+        Kurtosis Test Statistic (Levene): 0.225527
+        Kurtosis P-Value: 0.634870
+        ✅ Similar
+
+        /============================ Assumption Verdict ============================/
+        Shape Similarity Decision: H0 accepted, samples have similar shape (skewness and kurtosis)
+
+        /============================ Warning ============================/
+        //
+     
+
+ 
+        /============Independant equality of Medians Test Results Mann Whitney U rank sums============/
+        Sample Size: 5100
+        Alpha: 0.05
+        Method Used: 'Mann Whitney's 2 sample Independant test
+        Test Statistic: 0.039281338641078675
+        P-Value: 0.9686660847393702
+        Hypothesis testing for equality of medians: H0 accepted, the medians are equal
+
+        /============================Medians infos============================/
+        Sample 1 Median: -0.021891
+        Sample 2 Median: -0.024132
+
+        /============================Warnings============================/
+        !!!!!! the distribution of at least one sample is NORMAL, the results might not reflect reality
+        //
+        
