@@ -3,7 +3,7 @@ from utils.filtering.dfmodif import dfmodif #type: ignore
 
 def analysis():
 
-    dfnew = pd.read_csv('distributions.csv')
+    dfnew = pd.read_csv('water_intake_numeric.csv')
 
     #call the modification function to modify the dataframe
     df = dfmodif(dfnew)

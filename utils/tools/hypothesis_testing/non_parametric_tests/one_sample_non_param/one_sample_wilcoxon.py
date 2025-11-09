@@ -11,7 +11,7 @@ def one_sample_wilcoxon(df, col1):
     #import data
     sample = df[col1].to_numpy()
     samplesize = df[col1].count()
-    median = float(input("Enter the population median for the wilcoxon 1 sample test (e.g., 54.87 / 298.5 / 40): "))
+    median = float(input("Enter the population median for the wilcoxon 1 sample test (e.g., 54.87 / 298.5 / 40): ").replace(',', '.'))
 
     # ask for alpha 
     try:

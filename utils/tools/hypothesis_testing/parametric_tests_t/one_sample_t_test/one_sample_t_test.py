@@ -11,7 +11,7 @@ def one_sample_t_test(df, col1):
     #import data
     sample = df[col1].to_numpy()
     samplesize = df[col1].count()
-    mean = float(input("Enter the population mean for the t-test (e.g., 54.87 / 298.5 / 40): "))
+    mean = float(input("Enter the population mean for the t-test (e.g., 54.87 / 298.5 / 40): ").replace(',', '.'))
     samplemean = np.mean(sample)
     # ask for alpha 
     try:
