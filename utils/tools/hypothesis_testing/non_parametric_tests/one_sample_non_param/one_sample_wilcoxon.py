@@ -12,7 +12,7 @@ def one_sample_wilcoxon(df, col1):
     sample = df[col1].to_numpy()
     samplesize = df[col1].count()
     median = float(input("Enter the population median for the wilcoxon 1 sample test (e.g., 54.87 / 298.5 / 40): ").replace(',', '.'))
-
+    samplemedian = np.median(sample)
     # ask for alpha 
     try:
         alpha = input ("Enter alpha for the t-test default is 0.05. use numbers ranging from 0 to 100: ")
@@ -52,6 +52,7 @@ def one_sample_wilcoxon(df, col1):
         Test Statistic: {t_stat}
         P-Value: {p_value}
         Expected Median: {median}
+        Sample Median: {samplemedian:.6f}
         Hypothesis testing: {reject_str_var}
 
         /============================ Warnings ============================/

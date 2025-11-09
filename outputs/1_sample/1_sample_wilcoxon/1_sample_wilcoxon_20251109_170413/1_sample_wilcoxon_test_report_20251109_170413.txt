@@ -1,0 +1,46 @@
+
+        /================== Normality Test Results ==================/
+        Sample Size: 21
+        Alpha: 0.05
+        Method Used: Shapiro-Wilk (Sample size <= 5000)
+
+        /================== Sample analysis ==================/
+        Test Statistic sample : 0.899378476949929
+        P-Value: 0.03403594255583524
+        Hypothesis testing for normality test results: H1 accepted, normality test not validated
+         
+
+ 
+        /====================== Symmetry Test Results Using Skewness ======================/
+        Sample Name: perceived_water_intake_L
+        Sample Size (non-zero diffs): 21
+        Alpha Level: 0.05
+        Method Used: 'Skewness Test' (scipy.stats.skewtest)
+        Test Statistic: 1.032970
+        P-Value: 0.301618
+        Symmetry Decision: H0 accepted, data is likely symmetric
+    
+        /============================ Difference Distribution Info ============================/
+        Mean of Differences: 0.032381
+        Median of Differences: 0.080000
+        Min / Max: -0.920000 / 1.080000
+
+        /=================================== Warnings ===================================/
+        //
+         
+
+ 
+        /================== 1 sample Wilcoxon Test Results ==================/
+        Sample Size: 21
+        Alpha: 0.05
+        Method Used: 'Wilcoxon's 1 sample test
+        Test Statistic: 103.0
+        P-Value: 0.6604391507403873
+        Expected Median: 0.92
+        Hypothesis testing: H0 accepted, the means are equal
+
+        /============================ Warnings ============================/
+        //
+        //
+
+        
